@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.top__logo {
+  width: 12em;
+  margin: 1.5em 0 1em 6em;
+}
+
+.top__icon {
+  margin-right: 0.7em;
+}
+
+.top__loc {
+  padding: 1rem 0 1rem 6rem;
+  font-size: 1.18rem;
+  background-color: #e8e6e6;
+  border-top: 0.2em solid lightgray;
+}
+
+.top__guide {
+  background-color: #f3f2f2;
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.top__moto--thin {
+  width: 21rem;
+  font-weight: 300;
+  padding-left: 2rem;
+  font-size: 1.2em;
+}
+
+.direc h2 {
+  margin-left: 1em;
+}
+
+.direc__text {
+  background-color: #f3f2f2;
+  border-radius: 1.2rem;
+  padding: 1.5rem 0;
+  margin: 1rem 2rem;
+  -webkit-box-shadow: 0.3em 0.5em 0.5em lightgrey;
+          box-shadow: 0.3em 0.5em 0.5em lightgrey;
+}
+
+.direc__text :hover {
+  background-color: #9356DC;
+  opacity: 0.3;
+  color: black;
+}
+
+.direc__number {
+  margin: 0 -0.8rem;
+  background-color: #9356DC;
+  color: white;
+  padding: 0.3rem 0.6rem;
+  height: 1em;
+  border-radius: 50%;
+}
+
+.direc__icon {
+  padding-right: 1rem;
+}
+
+.direc__icon :hover {
+  color: #9356DC;
+}
+
+.direc__btn {
+  padding-left: 2rem;
+}
+/*# sourceMappingURL=main.css.map */
