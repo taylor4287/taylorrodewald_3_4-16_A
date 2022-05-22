@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/legour.scss"
+    ],
+    "names": [],
+    "file": "legour.css"
+}

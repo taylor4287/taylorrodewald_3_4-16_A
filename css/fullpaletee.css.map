@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../scss/fullpaletee.scss"
+    ],
+    "names": [],
+    "file": "fullpaletee.css"
+}
