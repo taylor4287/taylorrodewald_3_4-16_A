@@ -1,0 +1,46 @@
+.top__logo {
+    width: 12em;
+    margin: 1.5em 0 1em 6em;
+    
+}
+
+.top__icon {
+    margin-right: 0.7em;
+}
+.top__loc {
+    padding: 1rem 0 1rem 6rem;
+    font-size: 1.18rem;
+    background-color: rgb(232, 230, 230);
+    border-top: 0.2em solid lightgray;
+}
+
+.top__guide {
+    background-color: rgb(243, 242, 242);
+    text-align: center;
+    padding: 3rem 0;
+}
+
+.top__moto {
+    padding-bottom: 2.3rem;
+}
+
+.top__moto--thin {
+    width: 21rem;
+    @include font-weight(light);
+    padding: 0 0 1rem 2rem;
+    font-size: 1.2em;
+}
+
+.top__btn {
+    background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100% );
+    margin: 0 4rem;
+    border-radius: 5rem;
+    padding: 1rem 0;
+    color: white;
+}
+
+.top__arrow {
+    font-size: x-large;
+    margin-left: 1rem;
+    margin-top: -1rem;
+}

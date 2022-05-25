@@ -1,0 +1,39 @@
+.direc h2 {
+    margin-left: 1em;
+    padding-top: 2rem;
+}
+
+.direc__text {
+    background-color: rgb(243, 242, 242);
+    border-radius: 1.2rem;
+    padding: 1.5rem 0;
+    margin: 1rem 2rem;
+    box-shadow: 0.3em 0.5em 0.5em lightgrey;
+    transition: background-color 500ms;
+}
+
+.direc__text:hover {
+    background-color: rgba($primary-color, $alpha: 0.2);
+    transition: background-color 500ms;
+}
+
+.direc__number {
+    margin: 0 -0.8rem;
+    background-color: $primary-color;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    height: 1em;
+    border-radius: 50%;
+}
+
+.direc__icon {
+    padding-right: 1rem;
+    
+}
+
+// .fa-solid:hover {
+//     color: white;
+//     }
+.direc__btn {
+    padding-left: 2rem;  
+}

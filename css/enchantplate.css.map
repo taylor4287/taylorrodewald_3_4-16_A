@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AAAA,AAAA,WAAW,CAAC;EACR,SAAS,EAAE,OAAO;EAClB,WAAW,EAAE,IAAI;EACjB,UAAU,EAAE,KAAK;CACpB",
-    "sources": [
-        "../scss/enchantplate.scss"
-    ],
-    "names": [],
-    "file": "enchantplate.css"
-}

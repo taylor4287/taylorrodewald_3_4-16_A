@@ -1,0 +1,81 @@
+.rest__new {
+    background-color: $tertiary-color;
+    padding: 0.5rem 2rem;
+    color: darken($tertiary-color, 37%);
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+.rest__stack {
+    margin: 0 1rem;
+}
+
+.rest__img {
+    object-fit: cover;
+    width: 100%;
+    height: 12rem;
+    background-position: bottom 5rem right 5rem;
+    border-radius: 1rem 1rem 0 0;
+} 
+
+.rest__text {
+    padding: 1rem 0 1rem 1rem;
+}
+
+.rest__title {
+    font-size: 1.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.rest__city {
+    font-size: 1.3rem;
+}
+.rest__icon {
+    font-size: x-large;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 2.5rem;
+    opacity: 100%;
+    transition: opacity 500ms;
+}
+
+.rest__icon:hover {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.rest__icon--fill {
+    font-size: x-large;
+    position: absolute;
+    right: 1.5rem;
+    bottom: 2.5rem;
+    opacity: 0;
+    color: $primary-color;
+    transition: opacity 500ms;
+}
+
+.rest__icon--fill:hover {
+    opacity: 100%;
+    transition: opacity 500ms;
+}
+
+.rest__card--link {
+    text-decoration: none;
+    color: black;
+    margin: 2rem 0;
+}
+.rest__card {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+    // height: 20rem;
+    // padding: 5rem 0;
+    margin: 2rem 0;
+    // height: 10rem;
+    // background-color: lightpink;
+    border-radius: 1rem;
+    box-shadow: 0.3rem 0.5rem 0.5rem lightgray;
+}

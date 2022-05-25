@@ -1,0 +1,29 @@
+.links__logo {
+    -webkit-filter: invert(1);
+    filter: invert(1);
+    width: 6.3rem;
+    padding-bottom: 1rem;
+}
+
+.links__info {
+    font-size: 1.2rem;
+}
+
+.links__info a {
+    padding-bottom: 0.5rem;
+    text-decoration: none;
+    color: white;
+}
+
+.links__icon {
+    padding-right: 0.5rem;
+    font-size: small;
+}
+
+.links {
+    
+    background-color: rgb(64,64,64);
+    width: 100%;
+    padding: 2rem 1rem 1.5rem 1rem;
+    
+}
