@@ -31,11 +31,18 @@
 .rest__city {
     font-size: 1.3rem;
 }
+
+.rest__heart {
+    position: absolute;
+    right: 0.2rem;
+    bottom: 2.3rem;
+}
+
 .rest__icon {
     font-size: x-large;
-    position: absolute;
-    right: 1.5rem;
-    bottom: 2.5rem;
+    // position: absolute;
+    // right: 1.5rem;
+    // bottom: 2.5rem;
     opacity: 100%;
     transition: opacity 500ms;
 }
@@ -47,9 +54,9 @@
 
 .rest__icon--fill {
     font-size: x-large;
-    position: absolute;
-    right: 1.5rem;
-    bottom: 2.5rem;
+    // position: absolute;
+    // right: 1.5rem;
+    // bottom: 2.5rem;
     opacity: 0;
     color: $primary-color;
     transition: opacity 500ms;
