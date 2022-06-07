@@ -32,39 +32,60 @@
     font-size: 1.3rem;
 }
 
+.rest__icon {
+    position: absolute;
+    // right: 1.5rem;
+    // bottom: 2.3rem;
+    font-size: x-large;
+    
+    transition: opacity 500ms;
+    // -webkit-transition: opacity 500ms;
+}
+
+.rest__heart:hover .rest__icon--full {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+
+.rest__icon--full {
+   outline: blue 1px;
+    opacity: 1;
+    
+}
+
+.rest__icon--empty {
+    opacity: 0;
+    background: linear-gradient(rgba(250,184,66, 1), #31A);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  
+  /* fallback in case linear gradient doesn't work in the browser */
+  color: rgba(250,184,66, 1);
+    
+    
+}
 .rest__heart {
     position: absolute;
-    right: 0.2rem;
-    bottom: 2.3rem;
+    top: 15rem;
+    right: 3rem;
+    // outline: 20px solid red;
 }
 
-.rest__icon {
-    font-size: x-large;
-    // position: absolute;
-    // right: 1.5rem;
-    // bottom: 2.5rem;
-    opacity: 100%;
-    transition: opacity 500ms;
-}
-
-.rest__icon:hover {
-    opacity: 0;
-    transition: opacity 500ms;
-}
-
-.rest__icon--fill {
-    font-size: x-large;
-    // position: absolute;
-    // right: 1.5rem;
-    // bottom: 2.5rem;
-    opacity: 0;
-    color: $primary-color;
-    transition: opacity 500ms;
-}
-
-.rest__icon--fill:hover {
-    opacity: 100%;
-    transition: opacity 500ms;
+.rest__heart:hover {
+    .rest__icon--empty {
+        opacity: 1;
+        background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100% );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+  
+        /* fallback in case linear gradient doesn't work in the browser */
+        color: rgba(250,184,66, 1);
+    
+        transition: opacity 500ms;
+    }
 }
 
 .rest__card--link {
@@ -85,4 +106,5 @@
     // background-color: lightpink;
     border-radius: 1rem;
     box-shadow: 0.3rem 0.5rem 0.5rem lightgray;
+    outline: 1px solid green;
 }

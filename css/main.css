@@ -44,35 +44,50 @@ body {
   font-size: 1.3rem;
 }
 
+.rest__icon {
+  position: absolute;
+  font-size: x-large;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.rest__heart:hover .rest__icon--full {
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.rest__icon--full {
+  outline: blue 1px;
+  opacity: 1;
+}
+
+.rest__icon--empty {
+  opacity: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(#fab842), to(#31A));
+  background: linear-gradient(#fab842, #31A);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* fallback in case linear gradient doesn't work in the browser */
+  color: #fab842;
+}
+
 .rest__heart {
   position: absolute;
-  right: 0.2rem;
-  bottom: 2.3rem;
+  top: 15rem;
+  right: 3rem;
 }
 
-.rest__icon {
-  font-size: x-large;
-  opacity: 100%;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-.rest__icon:hover {
-  opacity: 0;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-.rest__icon--fill {
-  font-size: x-large;
-  opacity: 0;
-  color: #9356dc;
-  -webkit-transition: opacity 500ms;
-  transition: opacity 500ms;
-}
-
-.rest__icon--fill:hover {
-  opacity: 100%;
+.rest__heart:hover .rest__icon--empty {
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356dc));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* fallback in case linear gradient doesn't work in the browser */
+  color: #fab842;
   -webkit-transition: opacity 500ms;
   transition: opacity 500ms;
 }
@@ -93,6 +108,7 @@ body {
   border-radius: 1rem;
   -webkit-box-shadow: 0.3rem 0.5rem 0.5rem lightgray;
           box-shadow: 0.3rem 0.5rem 0.5rem lightgray;
+  outline: 1px solid green;
 }
 
 .direc h2 {
@@ -242,15 +258,29 @@ body {
 
 .rest__heart--menu {
   position: absolute;
-  top: 2.5rem;
-  right: 1.5rem;
+  top: 2.7rem;
+  right: 3.5rem;
+  z-index: 30;
+}
+
+.rest__heart--menu:hover .rest__icon--empty {
+  opacity: 1;
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356dc));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356dc 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* fallback in case linear gradient doesn't work in the browser */
+  color: #fab842;
+  -webkit-transition: opacity 500ms;
+  transition: opacity 500ms;
 }
 
 .food__type {
   position: relative;
   font-weight: 300;
   font-size: 1.1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .food__type::after {
@@ -261,5 +291,38 @@ body {
   position: absolute;
   left: 0;
   bottom: -0.5rem;
+}
+
+.food__item {
+  position: relative;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 1rem;
+  margin: 1rem 1rem 1rem 0;
+}
+
+.food__dish {
+  width: 70%;
+}
+
+.food__price {
+  position: absolute;
+  right: 1.5rem;
+  bottom: 1rem;
+  font-weight: 700;
+}
+
+.food {
+  margin-bottom: 3rem;
+}
+
+.rest__btn {
+  background: -webkit-gradient(linear, left top, left bottom, from(#FF79DA), to(#9356dc));
+  background: linear-gradient(to bottom, #FF79DA 0%, #9356dc 100%);
+  margin: 0 5rem 3rem 4rem;
+  border-radius: 5rem;
+  padding: 1rem 0;
+  color: white;
+  text-align: center;
 }
 /*# sourceMappingURL=main.css.map */

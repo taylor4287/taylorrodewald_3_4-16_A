@@ -24,15 +24,31 @@
 
 .rest__heart--menu {
     position: absolute;
-    top: 2.5rem;
-    right: 1.5rem;
+    top: 2.7rem;
+    right: 3.5rem;
+    z-index: 30;
+}
+
+.rest__heart--menu:hover {
+    .rest__icon--empty {
+        opacity: 1;
+        background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100% );
+        -webkit-background-clip: text;
+        background-clip: text;
+        -webkit-text-fill-color: transparent;
+  
+        /* fallback in case linear gradient doesn't work in the browser */
+        color: rgba(250,184,66, 1);
+    
+        transition: opacity 500ms;
+    }
 }
 
 .food__type {
     position: relative;
     @include font-weight(light);
     font-size: 1.1rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .food__type::after {
@@ -45,3 +61,34 @@
     bottom: -0.5rem;
 }
 
+.food__item {
+    position: relative;
+    background-color: white;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin: 1rem 1rem 1rem 0;
+}
+
+.food__dish {
+    width: 70%;
+}
+
+.food__price {
+    position: absolute;
+    right: 1.5rem;
+    bottom: 1rem;
+    @include font-weight(bold);
+}
+
+.food {
+    margin-bottom: 3rem;
+}
+
+.rest__btn {
+    background: linear-gradient(to bottom, $secondary-color 0%, $primary-color 100% );
+    margin: 0 5rem 3rem 4rem;
+    border-radius: 5rem;
+    padding: 1rem 0;
+    color: white;
+    text-align: center;
+}
