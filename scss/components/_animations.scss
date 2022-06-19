@@ -1,0 +1,16 @@
+@keyframes menu-item {
+    0% {
+        opacity: 0;
+        margin-top: 3rem;
+    }
+
+    10% {
+        margin-top: 3rem;
+    }
+
+    100% {
+        opacity: 1;
+        margin-top: 1rem;
+    }
+
+}

@@ -62,23 +62,62 @@
 }
 
 .food__item {
-    position: relative;
+    // position: relative;
     background-color: white;
     border-radius: 1rem;
-    padding: 1rem;
+    // padding: 1rem;
     margin: 1rem 1rem 1rem 0;
+    white-space: nowrap;
+    overflow: hidden;
+    text-align: left;
+    width: 95%;
+    // outline: 1px dotted purple;
+    display: flex;
+    animation: menu-item 4s 0.25s forwards;
+}
+
+.food__item:hover {
+    .food__item--tran {
+        width: 50%;
+        transition: width 3s;
+    }
+
+    .food__check {
+        transform: rotate(-360deg);
+        transition: transform 3s;
+    }
+}
+
+.food__item--tran {
+    width: 75%;
+    flex: none;
+    transition: width 3s;
+    // outline: 1px solid red;
+    padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
 .food__dish {
-    width: 70%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
 .food__price {
-    position: absolute;
-    right: 1.5rem;
-    bottom: 1rem;
+    position: relative;
     @include font-weight(bold);
+    width: 25%;
+    // outline: 1px solid blue;
+    // outline: 1px solid green;
+    margin-bottom: 0.5rem;
+    flex: none;
+
+    span {
+        position: absolute;
+        right: 0.75rem;
+        bottom: 0;
+    }
 }
+
 
 .food {
     margin-bottom: 3rem;
@@ -91,4 +130,29 @@
     padding: 1rem 0;
     color: white;
     text-align: center;
+}
+
+.food__animation {
+    width: 25%;
+    display: flex;
+    flex: none;
+    align-items: center;
+    justify-content: center;
+    // outline: 1px solid red;
+    background-color: $tertiary-color;
+}
+
+.food__check {
+    // animation: menu-item 5s hover;
+    color: white;
+    
+    // padding: 2rem;
+    font-size: xx-large;
+    outline: 1px solid orange;
+}
+
+.food__inclu {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
