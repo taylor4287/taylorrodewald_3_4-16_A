@@ -26,6 +26,11 @@
             order: 3;
         }
     }
+
+    @media screen and (max-width: 1444px) and (min-width: 992px) {
+        display: flex;
+        gap: 5%;
+    }
 }
 
 .links__info a {
@@ -48,6 +53,11 @@
     background-color: rgb(64,64,64);
     width: 100%;
     padding: 2rem 1rem 1.5rem 1rem;
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        padding-left: 3rem;
+    }
+    
     
 }
 

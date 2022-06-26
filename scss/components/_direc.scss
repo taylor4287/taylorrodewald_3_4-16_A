@@ -6,6 +6,10 @@
         font-size: 2rem;
         margin-left: 4em;
     }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        margin-left: 1em;
+    }
 }
 
 .direc__list {
@@ -13,6 +17,14 @@
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         margin: 0 6rem;
         font-size: 1.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        margin: 0 2rem;
+       
     }
 }
 
@@ -23,6 +35,14 @@
     margin: 1rem 2rem;
     box-shadow: 0.3em 0.5em 0.5em lightgrey;
     transition: background-color 500ms;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        width: 25rem;
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        width: 25rem;
+    }
 }
 
 .direc__text:hover {

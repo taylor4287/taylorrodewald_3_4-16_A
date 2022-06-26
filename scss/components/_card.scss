@@ -1,8 +1,23 @@
+.rest {
+    margin: 0 1rem;
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        margin: 0 3rem;
+    }
+
+    // @media screen and (max-width: 1444px) and (min-width: 992px) {
+    //     margin: 1rem;
+    // }
+}
+
 .rest__head {
 
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         font-size: 2rem;
-        padding: 3rem 0 2rem 6rem;
+        padding: 3rem 0 0 0;
+    }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        // padding-left: 3rem;
     }
 }
 
@@ -16,13 +31,27 @@
 }
 
 .rest__stack {
-    margin: 0 1rem;
+    margin: 0 ;
 
     @media screen and (max-width: 1180px) and (min-width: 820px) {
-        margin: 6rem;
         display: flex;
         flex-wrap: wrap;
         justify-content: space-between;
+        
+    }
+
+    // @media screen and (max-width: 992px) and (min-width: 768px) {
+    
+    // }
+
+    @media screen and (max-width: 1444px) and (min-width: 992px) {
+        // flex-wrap: nowrap;
+        flex-flow: row wrap;
+        // justify-content: center;
+        // gap: 5%;
+        width: 30%;
+        margin: 0;
+        padding: 0;
         
     }
 }
@@ -131,4 +160,5 @@
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         width: 47%;
     }
+
 }

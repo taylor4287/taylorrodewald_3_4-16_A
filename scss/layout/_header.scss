@@ -78,6 +78,10 @@
         margin-left: 26rem;
         width: 20rem;
     }
+
+    @media screen and (max-width: 992px) and (min-width: 768px) {
+        margin-left: 16rem;
+    }
 }
 
 .top__arrow {
