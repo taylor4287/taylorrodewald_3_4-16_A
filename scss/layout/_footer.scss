@@ -17,6 +17,11 @@
 
 .links__info {
     font-size: 1.2rem;
+    
+    h3 {
+        font-weight: 400;
+    }
+    
 
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         font-size: 1.8rem;

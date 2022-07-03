@@ -36,7 +36,7 @@
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
-    background: linear-gradient($primary-color, $secondary-color, #tertiary-color);
+    background: linear-gradient($primary-color, $secondary-color, $tertiary-color);
     animation: orbit 3s linear forwards;
     z-index: 100;
     animation-delay: 0.5s;
