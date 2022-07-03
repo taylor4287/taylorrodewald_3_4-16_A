@@ -1,3 +1,14 @@
+.direc {
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        position: absolute;
+        top: 25.5rem;
+        right: 8rem;
+        width: 37rem;
+        z-index: 10;
+    }
+}
+
 .direc h2 {
     margin-left: 1em;
     padding-top: 2rem;
@@ -9,6 +20,11 @@
 
     @media screen and (max-width: 992px) and (min-width: 768px) {
         margin-left: 1em;
+    }
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        // padding-top: 0;
+        padding-bottom: 2rem;
     }
 }
 
@@ -41,13 +57,20 @@
     }
 
     @media screen and (max-width: 992px) and (min-width: 768px) {
-        width: 25rem;
+        width: 30rem;
     }
 }
 
 .direc__text:hover {
     background-color: rgba($primary-color, $alpha: 0.2);
     transition: background-color 500ms;
+}
+
+#direc__text--3 {
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        width: 30rem;
+    }
 }
 
 .direc__number {

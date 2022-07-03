@@ -4,6 +4,14 @@
     height: 15rem;
     position: relative;
     z-index: -10rem;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        height: 20rem;
+    }
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        height: 20rem;
+    }
 }
 
 .rest__menu {
@@ -15,11 +23,27 @@
     z-index: 20;
 }
 
+.food__menu {
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
 .rest__name {
     font-family: $title-font;
     font-size: 1.8rem;
     width: 80%;
     padding-bottom: 1rem;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        font-size: 2.5rem;
+    }
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        padding-left: 2rem;
+    }
 }
 
 .rest__heart--menu {
@@ -27,6 +51,21 @@
     top: 2.7rem;
     right: 3.5rem;
     z-index: 30;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        right: 4.5rem;
+    }
+
+    @media screen and (max-width: 1444px) and (min-width: 1185px) {
+        right: 5rem;
+    }
+}
+
+.fa-heart {
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        font-size: xx-large;
+    }
 }
 
 .rest__heart--menu:hover {
@@ -49,6 +88,10 @@
     @include font-weight(light);
     font-size: 1.1rem;
     margin-bottom: 1.5rem;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        font-size: 1.75rem;
+    }
 }
 
 .food__type::after {
@@ -75,6 +118,10 @@
     display: flex;
     animation: menu-item 4s 0.25s forwards;
     animation-delay: 2.5s;
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        width: 98%;
+    }
 }
 
 .food__item:hover {
@@ -149,11 +196,17 @@
     
     // padding: 2rem;
     font-size: xx-large;
-    outline: 1px solid orange;
 }
 
 .food__inclu {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
+}
+
+h3, p, span {
+
+    @media screen and (max-width: 1180px) and (min-width: 820px) {
+        font-size: 1.75rem;
+    }
 }
