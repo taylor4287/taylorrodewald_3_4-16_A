@@ -515,7 +515,6 @@ body {
 
 @media screen and (max-width: 1444px) and (min-width: 1185px) {
   .links__logo {
-    padding-left: 3.75rem;
     width: 15rem;
   }
 }
