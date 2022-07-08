@@ -598,7 +598,6 @@ body {
 .top__logo {
   width: 12em;
   margin: 1.5em 0 1em 6em;
-  /* tablet lanscape media query */
 }
 
 @media screen and (max-width: 1180px) and (min-width: 820px) {
