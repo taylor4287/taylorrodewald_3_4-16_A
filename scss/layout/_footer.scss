@@ -10,7 +10,6 @@
     }
 
     @media screen and (max-width: 1444px) and (min-width: 1185px) {
-        // padding-left: 3.75rem;
         width: 15rem;
     }
 }
@@ -21,16 +20,13 @@
     h3 {
         font-weight: 400;
     }
-    
 
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         font-size: 1.8rem;
         display: flex;
-        // flex-wrap: wrap;
         align-items: flex-start;
         width: 75%;
         gap: 5%;
-        
     }
 
     @media screen and (max-width: 1444px) and (min-width: 1185px) {
@@ -73,7 +69,6 @@
 
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         width: 50%;
-        
     }
 }
 

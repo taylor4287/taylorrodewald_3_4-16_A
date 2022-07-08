@@ -23,7 +23,6 @@
     }
 
     @media screen and (max-width: 1444px) and (min-width: 1185px) {
-        // padding-top: 0;
         padding-bottom: 2rem;
     }
 }
@@ -40,7 +39,6 @@
 
     @media screen and (max-width: 992px) and (min-width: 768px) {
         margin: 0 2rem;
-       
     }
 }
 
@@ -88,12 +86,8 @@
 
 .direc__icon {
     padding-right: 1rem;
-    
 }
 
-// .fa-solid:hover {
-//     color: white;
-//     }
 .direc__btn {
     padding-left: 2rem;  
 }

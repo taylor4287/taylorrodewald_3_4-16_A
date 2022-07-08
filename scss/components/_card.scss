@@ -3,10 +3,6 @@
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         margin: 0 3rem;
     }
-
-    // @media screen and (max-width: 1444px) and (min-width: 992px) {
-    //     margin: 1rem;
-    // }
 }
 
 .rest__head {
@@ -14,10 +10,6 @@
     @media screen and (max-width: 1180px) and (min-width: 820px) {
         font-size: 2rem;
         padding: 3rem 0 0 0;
-    }
-
-    @media screen and (max-width: 992px) and (min-width: 768px) {
-        // padding-left: 3rem;
     }
 
     @media screen and (max-width: 1444px) and (min-width: 1185px) {
@@ -44,25 +36,19 @@
         
     }
 
-    // @media screen and (max-width: 992px) and (min-width: 768px) {
-    
-    // }
-
     @media screen and (max-width: 1444px) and (min-width: 1185px) {
         display: flex;
         flex-wrap: wrap;
         justify-content: space-evenly;
         gap: 1%;
         width: 100%;
-        
     }
 
     section:nth-child(1) {
 
         @media screen and (max-width: 1444px) and (min-width: 1185px){
             margin-right: 50.5rem;
-        }
-            
+        } 
     }
 }
 
@@ -93,12 +79,8 @@
 
 .rest__icon {
     position: absolute;
-    // right: 1.5rem;
-    // bottom: 2.3rem;
     font-size: x-large;
-    
     transition: opacity 500ms;
-    // -webkit-transition: opacity 500ms;
 }
 
 .rest__heart:hover .rest__icon--full {
@@ -119,17 +101,13 @@
     background-clip: text;
   -webkit-text-fill-color: transparent;
 
-  
   /* fallback in case linear gradient doesn't work in the browser */
   color: rgba(250,184,66, 1);
-    
-    
 }
 .rest__heart {
     position: absolute;
     top: 15rem;
     right: 3rem;
-    // outline: 20px solid red;
 }
 
 .rest__heart:hover {
@@ -142,7 +120,6 @@
   
         /* fallback in case linear gradient doesn't work in the browser */
         color: rgba(250,184,66, 1);
-    
         transition: opacity 500ms;
     }
 }
@@ -152,17 +129,14 @@
     color: black;
     margin: 2rem 0;
 }
+
 .rest__card {
     position: relative;
     display: inline-block;
     width: 100%;
     text-decoration: none;
     color: black;
-    // height: 20rem;
-    // padding: 5rem 0;
     margin: 2rem 0;
-    // height: 10rem;
-    // background-color: lightpink;
     border-radius: 1rem;
     box-shadow: 0.3rem 0.5rem 0.5rem lightgray;
     outline: 1px solid green;
