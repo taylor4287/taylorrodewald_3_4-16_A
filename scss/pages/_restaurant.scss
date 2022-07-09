@@ -105,16 +105,13 @@
 }
 
 .food__item {
-    // position: relative;
     background-color: white;
     border-radius: 1rem;
-    // padding: 1rem;
     margin: 1rem 1rem 1rem 0;
     white-space: nowrap;
     overflow: hidden;
     text-align: left;
     width: 95%;
-    // outline: 1px dotted purple;
     display: flex;
     animation: menu-item 4s 0.25s forwards;
     animation-delay: 2.5s;
@@ -140,7 +137,6 @@
     width: 75%;
     flex: none;
     transition: width 3s;
-    // outline: 1px solid red;
     padding: 0.5rem 0 0.5rem 0.5rem;
 }
 
@@ -154,8 +150,6 @@
     position: relative;
     @include font-weight(bold);
     width: 25%;
-    // outline: 1px solid blue;
-    // outline: 1px solid green;
     margin-bottom: 0.5rem;
     flex: none;
 
@@ -186,15 +180,11 @@
     flex: none;
     align-items: center;
     justify-content: center;
-    // outline: 1px solid red;
     background-color: $tertiary-color;
 }
 
 .food__check {
-    // animation: menu-item 5s hover;
     color: white;
-    
-    // padding: 2rem;
     font-size: xx-large;
 }
 
