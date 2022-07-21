@@ -1,6 +1,6 @@
 # taylorrodewald_3_4-16_A
 Openclassrooms project three: integrating a mobile website using animations in CSS. <br>
-online at https://github.com/taylor4287/taylorrodewald_3_4-16_A
+online at https://taylor4287.github.io/taylorrodewald_3_4-16_A/
 
 ## Skills Learned
 <li>Set up a development environment
